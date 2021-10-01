@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	*{
+		padding-left: 10px;
+	}
+
+	li,a,button
+	{
+		font-weight: 500;
+		font-size: 16px;
+		color: #edf0f1;
+		text-decoration: none;
+	}
+
+	header
+	{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding:25px 10%;
+
+	}
+
+	.nav_links
+	{list-style: none;
+		gap: 180px;
+	}
+
+	.nav_links li{
+		display: inline-block;
+		padding: 0px 20px;
+	}
+	.nav_links li a{
+		transform: scale(1);
+		transition: all 0.3 ease-in-out 0s;
+	}
+	button
+	{
+		padding: 9px 25px;
+		background-color: black;
+		border-color: white;
+		border-radius:  50px;
+	}
+
+	.image {
+		display: inline-block;
+		text-align:center;
+		width: 32%;
+		float:left;
+	}
+	figure {
+		overflow: hidden;
+		margin: 0 10px;
+	}
+	.image img{
+		display: block;
+		width:90%;
+		padding: 10px;
+		height: auto;
+		cursor: pointer;
+	}
+	.image #zoom-in img {
+	transform: scale(1);
+	transition: 0.4s ease-in-out;
+	}
+	.image #zoom-in:hover img {
+	transform: scale(1.2);
+	}
+	</style>
+</head>
+<header>
+	<img class="logo" src="https://i2.wp.com/blog.son-video.com/wp-content/uploads/2020/08/netflix-hans-zimmer-02.jpg?fit=2140%2C1128&ssl=1" width="25%" alt="logo">
+	<nav>
+		<ul class="nav_links">
+			<li><a href="file:///Users/sam/Documents/Web%20Development/netflix%20clone/netflix.html">Home</a></li>
+			<li><a href="file:///Users/sam/Documents/Web%20Development/netflix%20clone/movie.html">Movies</a></li>
+			<li><a href="#">Anime</a></li>
+
+
+		</ul>
+	</nav>
+	<a class="cta" href="file:///Users/sam/Documents/Web%20Development/netflix%20clone/user.html"><button>Profile</button></a>
+</header>
+<body bgcolor="black">
+
+<div class="image">
+	<div id="zoom-in">
+		<figure>
+			<a href="file:///Users/sam/Documents/Web%20Development/netflix%20clone/kini%20no%20na%20wa.html"><img src="anime\anime1.jpg" width="28%"></a>
+		</figure>
+	</div>
+</div>
+<div class="image">
+	<div id="zoom-in">
+		<figure>
+			<a href=""><img src="anime\anime 11.jpg" width="16%"></a>
+		</figure>
+	</div>
+</div>
+<div class="image">
+	<div id="zoom-in">
+		<figure>
+			<a href=""><img src="anime\anime3.jpg" width="16%"></a>
+		</figure>
+	</div>
+</div>
+<div class="image">
+	<div id="zoom-in">
+		<figure>
+				<a href=""><img src="anime\anime4.jpg" width="16%"></a>
+		</figure>
+	</div>
+</div>
+
+<div class="image">
+	<div id="zoom-in">
+		<figure>
+			<a href=""><img src="anime\anime5.jpg" width="16%"></a>
+		</figure>
+	</div>
+</div>
+
+<div class="image">
+	<div id="zoom-in">
+		<figure>
+			<a href=""><img src="anime\anime 6.jpg" width="16%"></a>
+		</figure>
+	</div>
+</div>
+
+<div class="image">
+		<div id="zoom-in">
+			<figure>
+				<a href=""><img src="anime\anime7.jpg" width="16%"></a>
+
+		</figure>
+	</div>
+</div>
+
+<div class="image">
+		<div id="zoom-in">
+			<figure>
+				<a href=""><img src="anime\anime8.jpg" width="16%"></a>
+
+
+		</figure>
+	</div>
+</div>
+<div class="image">
+		<div id="zoom-in">
+			<figure>
+				<a href=""><img src="anime\anime9.jpg" width="16%"></a>
+
+
+		</figure>
+	</div>
+</div>
+</body>
+</html>
